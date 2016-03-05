@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		
+		<!-- nyt header -->
+		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+				
+			</div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 header ">
+				<h1><span class=" fa fa-newspaper-o"></span>New York Times Search</h1>
+			</div>
+
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+				
+			</div>
+		</div> <!-- end nyt header -->
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<p><span class="glyphicon glyphicon-th-list"></span>Search Parameters</p>
+	</div> <!-- end parameters title -->
+
+		<div class="input-group input-group-lg">
+			<p>Search Terms</p>
+		  <input type="text" class="form-control" placeholder="Search Terms" >
+
+		</div>	
+
+<!-- 		<input type="text" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		  Records to receive <span class="caret"></span>
+		 </button>
+		 <ul class="dropdown-menu" style="width: 700px">
+		   <li>1</li>
+		   <li>5</li>
+		   <li><a href="#">Something else here</a></li>
+		   <li role="separator" class="divider"></li>
+		   <li><a href="#">Separated link</a></li>
+		 </ul> -->
+
+		<div class="input-group input-group-lg">
+			<p>Records to Receive</p>
+		  <input type="text" class="form-control" placeholder="Search Terms" >
+
+		</div>	
+
+		<div class="input-group input-group-lg">
+			<p>Start Year (optional)</p>
+		  <input type="text" class="form-control" placeholder="Search Terms" >
+
+		</div>	
+
+		<div class="input-group input-group-lg">
+			<p>End Year (optional)</p>
+		  <input type="text" class="form-control" placeholder="Search Terms" >
+
+		</div>			
+
+		<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>Search</button>
+		<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash"></span>Results</button>
+
+		
+	</div> <!-- end panel -->
+
+	<div class="panel panel-default">
+		<div class="panel-body"><span class="glyphicon glyphicon-th-list"></span>
+			Top Search
+		</div> <!-- end panel title -->
+
+		<div id="TopSearch"></div>	
+
+
+	</div> <!-- end top search div -->
+
+	</div> <!-- end container fluid -->
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+
+.header {
+	height: 200px;
+	background-color: lightgray;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+
+}
+
+h1 {
+	margin-top: 75px;
+}
+
+.container-fliuid {
+
+
+}
+
+p {
+	font-family: helvetica;
+
+}
+
+.fa {
+	padding-right: 10px;
+
+}
+.glyphicon {
+	padding-right: 10px;
+}
+
+.panel {
+	width: 100%;
+}
+ 
+
+input, .input-group, p {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#TopSearch {
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+}
