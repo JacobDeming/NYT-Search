@@ -34,13 +34,12 @@ $("#ClearButton").click(clear());
 		    	$("#TopSearch").append("<div class='block"+i+"'></div>")
 				$(".block"+i).append("<div class='articleNum'>"+(i+1)+"</div>");
 			   $(".block"+i).append("<div class='headline'>"+x.response.docs[i].headline.main+"</div>");
-			   if(x.response.docs[i].byline == false){}
+			   if(x.response.docs[i].byline==null){}
 			   else{
-			   		$(".block"+i).append("<div class='author'>"+x.response.docs[i].byline.person.original+"</div>");}
+			   		$(".block"+i).append("<div class='author'>"+x.response.docs[i].byline.original+"</div>");}
 			   $(".block"+i).append("<div class='section'>"+ x.response.docs[i].section_name+"</div>");
 			   $(".block"+i).append("<div class='pubDate'>"+x.response.docs[i].pub_date+"</div>");
 			   $(".block"+i).append("<div class='url'><a href='"+x.response.docs[i].web_url+"'>"+x.response.docs[i].web_url+"</div>");
-
 			}
     	});
     });
